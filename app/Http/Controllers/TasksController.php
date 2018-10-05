@@ -22,6 +22,10 @@ class TasksController extends Controller
   }
   public function validateCredentials()
   {
+    $this->validate(request(),[
+      'title'=>'required',
+      'body'=>'required'
+  ]);
     $post=New Tasks;
     $post->title=request('title');
     $post->body=request('body');

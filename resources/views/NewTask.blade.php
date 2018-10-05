@@ -1,4 +1,6 @@
 <?php include ('resources/views/navbar.blade.php');?>
+
+<?php include ('resources/views/errors.blade.php');?>
 <div class="container">
   <div class="col-sm-6">
     <form method="POST" action="../posts">
@@ -15,4 +17,5 @@
     </form>
   </div>
 </div>
+
 <?php include ('resources/views/footer.blade.php');?>
