@@ -1,9 +1,9 @@
  <?php include ('resources/views/navbar.blade.php');?>
 <ul>
-  <?php foreach ($tasks as $task): ?>
+  <?php foreach ($customers as $customer): ?>
     <li>
-      <a href="tasks/<?php echo $task->id?>">
-        <?php echo $task->title ?>
+      <a href="">
+        <?php echo $customer->name ?>
       </a>
     </li>
   <?php endforeach ?>

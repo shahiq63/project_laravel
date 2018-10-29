@@ -1,10 +1,7 @@
 <?php
-
 namespace App\Http\Controllers;
-
 use Illuminate\Http\Request;
 use App\Tasks;
-
 class TasksController extends Controller
 {
   public function index()

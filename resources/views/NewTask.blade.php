@@ -3,7 +3,7 @@
 <?php include ('resources/views/errors.blade.php');?>
 <div class="container">
   <div class="col-sm-6">
-    <form method="POST" action="../posts">
+    <form method="POST" action="posts">
       {{ csrf_field() }}
       <div class="form-group">
         <label for="Title">Title:</label>

@@ -1,8 +1,10 @@
-<?php
+  <?php
 
 Route::get('/','TasksController@index');
 
 Route::get('/tasks/{task}','TasksController@ShowTask');
+
+Route::get('customers','CustomersController@index');
 
 Route::post('/posts/', 'TasksController@validateCredentials');
 
